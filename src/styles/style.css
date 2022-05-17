@@ -1,0 +1,434 @@
+header{
+    background-color: #6495ED;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FAFAFA;
+    width: 1227px;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Montserrat' 
+    
+}
+
+.main-index {
+    background-color: #fffcfc;
+    width: 1227px;
+    max-width: 1227px;
+    height: 847px;
+    max-height: 847px;
+    font-family:'Montserrat' ;
+}
+
+.card-menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+    margin-top: 148px;
+}
+
+#cadastro, #login{
+    width: 350px;
+    height: 270px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    display: flex;
+    flex-direction: column;
+    background-color: #6495ED;;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+}
+
+#btn-cadastro, #btn-login{
+    width: 132px;
+    height: 42px;
+    left: 148px;
+    top: 281px;
+    background: #EDBC64;
+    border: 0px;    
+    border-radius: 5px;
+    cursor: pointer;
+    color:white;
+    font-size: 18px;
+}
+
+.main-cadastro, .main-login{
+    height: 500px;
+    width: 1227px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Montserrat' 
+}
+
+.container-cadastro, .container-login{
+    width: 428px;
+    height: 401px;
+    background: #6495ED;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around
+}
+
+.container-login{
+    width: 428px;
+    height: 401px;
+    background: #6495ED;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around
+}
+
+.container-cadastro h3, .container-login h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.container-cadastro input, .container-login input{
+    width: 246px;
+    height: 42px;
+    left: 93px;
+    top: 85px;
+    background: #F3F3F3;
+    border-radius: 4px;
+    border: none
+    
+}
+
+.container-cadastro button, .container-login button{
+    width: 132px;
+    height: 42px;
+    left: 148px;
+    top: 281px;
+    background: #EDBC64;
+    border: 0px;    
+    border-radius: 5px;
+    cursor: pointer;
+    color:white;
+    font-size: 18px;
+}
+
+input[type='file'] {
+    display: none;
+  }
+
+.input-upload-img{
+    width: 246px;
+    height: 42px;
+    left: 93px;
+    top: 85px;
+    background: #F3F3F3;
+    border-radius: 4px;
+    border: none;
+    font-size: 14px;
+    color:#525252;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#body-page-blog{
+    width:1227px;
+    max-width: 1227px;
+    height: 847px;
+}
+
+.header-blog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-blog h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 14px;
+}
+
+#btn-logout {
+    width: 97px;
+    height: 30px;
+    left: 1091px;
+    top: 13px;
+    background: #EDBC64;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    margin-right: 39px;
+    cursor: pointer;
+}
+
+
+#main-posts{
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#add-post {
+    width: 25px;
+    height: 25px;
+    left: 871px;
+    top: 142px;
+    background: #EDBC64;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #F8E7E7;
+    border: none;
+    cursor: pointer;
+
+}
+
+.post{
+    display: flex;
+    flex-direction: row;
+    width: 601px;
+    height: 180px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-bottom: 14px;
+}
+
+.fotoUsuario {
+    margin: 23px 33px 87px 3px;
+}
+
+#textarea-post{
+    width: 601px;
+    height: 97px;
+    left: 313px;
+    top: 83px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: none;
+
+}
+
+.nomeUsuario{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+
+}
+.postUsuario {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5F5C5C;
+    width: 351px;
+    height: 133px;
+}
+
+.postConfig{
+    margin: 0px 48px 0px 31px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #989898;
+}
+
+.textarea-container {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 22px 0px 28px 0px;
+    
+}
+
+
+.textarea-container label {
+    background: #EDBC64;
+    color: white;
+    border-radius: 5px;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 3px;
+    position: absolute;
+    bottom: auto;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+.textarea-container textarea {
+    resize: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 17px;
+}
+
+#fotoperfil {
+    width: 49px;
+    height: 46px;
+    left: 14px;top: 7px;
+    border-radius: 100px;
+        align-items: center;
+}
+
+.userprofile{
+    display: flex;
+    margin: 7px 0px 8px 14px;
+    align-items: center;
+}
+
+.fotoUsuario-Post{
+    width: 71px;
+    height: 70px;
+
+    border-radius: 100px;
+}
+
+.nomeUsuarioPost{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.postUsuario-blog{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5F5C5C;
+}
+
+#button-editar {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #6495ED;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#button-apagar{
+    border: none;
+    background-color: transparent;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ED6464;
+    cursor: pointer;
+}
+
+
+.modalEditar{
+    height: 153px;
+    width: 425px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: grey;
+    padding: 85px;
+    justify-content: space-around;
+    position: fixed
+}
+
+.modalEditar button {
+    border: none;
+    margin-bottom: 5px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.header-editar{
+    background-color: #6495ED;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FAFAFA;
+    width: 1227px;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Montserrat' 
+}
+
+#textarea-post-editar{
+
+    height: 136px;
+
+}
+
+.buttons-editar{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+   
+}
+
+#enviar-post-alterado{
+    margin-left: 5px;
+}
+
+#enviar-post-alterado, #voltar-pagina{
+    width: 246px;
+    height: 42px;
+    left: 93px;
+    top: 85px;
+    background: #696969;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
