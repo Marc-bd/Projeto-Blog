@@ -120,7 +120,7 @@ async function criarPostdoUsuario() {
   };
 
   await Api.criarPost(userToken, post);
-  window.location = "http://127.0.0.1:5500/src/pages/blog.html";
+  window.location.replace("/src/pages/blog.html");
 }
 
 const logoutBotao = document.getElementById("btn-logout");
@@ -163,7 +163,7 @@ function editarpost(event) {
     console.log(postIdEditar, userToken, data);
 
     await Api.alterarPost(postIdEditar, userToken, data);
-    window.location = "http://127.0.0.1:5500/src/pages/blog.html";
+    window.location.replace("/src/pages/blog.html");
   }
 }
 
@@ -171,5 +171,5 @@ async function deletarPostSelecionado(event) {
   const target = event.target;
   const postIdDeletar = target.getAttribute("dataset");
   await Api.deletarPost(postIdDeletar, userToken);
-  window.location = "http://127.0.0.1:5500/src/pages/blog.html";
+  window.location.replace("/src/pages/blog.html");
 }
