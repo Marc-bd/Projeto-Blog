@@ -37,7 +37,7 @@ header{
     line-height: 29px;
     display: flex;
     flex-direction: column;
-    background-color: #6495ED;;
+    background-color: #6495ED;
     justify-content: center;
     align-items: center;
     color: white;
@@ -432,3 +432,49 @@ input[type='file'] {
     cursor: pointer;
 }
 
+.modal-of{
+    display: none;
+}
+
+.modal-on{
+    position: fixed;
+    background-color: rgba(0, 0, 0, .6);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#headerModal {
+    display: flex;
+    justify-content: space-between;
+    background-color: #6495ED;
+    
+    align-items: flex-end;
+}
+
+#headerModal h3{
+    color: white;
+    margin: 14px 0px 3px 10px;
+    font-size: 25px;
+}
+
+#headerModal button{
+    border: none;
+    font-size: 23px;
+    font-weight: 800;
+    color: white;
+    background: none;
+    cursor: pointer;
+}
+
+#EnviarDadosModal{
+    border: none;
+    font-size: 23px;
+    font-weight: 800;
+    color: white;
+    background: #6495ED;
+    cursor: pointer;
+}

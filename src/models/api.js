@@ -99,15 +99,28 @@ class Api {
       {
         method: "PATCH",
         headers: {
-          "'Content-Type": "application/json",
+          "Content-Type": "application/json",
           Authorization: `Bearer ${token}`,
         },
         body: JSON.stringify(data),
       }
     )
-      .then((res) => res.json())
-      .then((res) => res);
-    return response;
+      .then((response) => console.log(response))
+      .catch((err) => console.error(err));
+  }
+
+  static async deletarPost(idPost, token) {
+    const response = await fetch(
+      `https://api-blog-m2.herokuapp.com/post/${idPost}`,
+      {
+        method: "DELETE",
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      }
+    )
+      .then((response) => console.log(response))
+      .catch((err) => console.error(err));
   }
 }
 
